@@ -20,13 +20,14 @@ body {
 }
 .placeholder {
   width: min(1110px, 100%);
-  height: 50vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .placeholder-title {
   color: #00001a;
+  margin-top: 20vh;
 }
 
 @media screen and (max-width: 1110px) {

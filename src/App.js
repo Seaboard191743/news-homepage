@@ -7,8 +7,7 @@ import {
 
 import { LayOut } from './pages/layout/LayOut';
 import { HomePage } from './pages/homepage/HomePage';
-import { Placeholder } from './components/placeholder/Placeholder';
-
+import { Placeholder } from './pages/placeholder/Placeholder';
 import './app.css';
 
 const router = createBrowserRouter(
