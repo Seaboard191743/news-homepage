@@ -10,9 +10,13 @@ export const useBurgerMenu = () => {
   useEffect(() => {
     const overlay = overlayRef.current;
     const layer = layerRef.current;
+    console.log(open);
     if (open) {
       overlay.style.display = 'block';
       layer.style.display = 'block';
+    } else {
+      overlay.style.display = 'none';
+      layer.style.display = 'none';
     }
     return () => {
       overlay.style.display = 'none';
