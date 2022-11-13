@@ -18,6 +18,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding: 144px 24px;
+  display: none;
 }
 .vertical-menu > .nav-link {
   font-size: 18px;
