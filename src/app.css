@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  outline-offset: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+.layout-container {
+  padding: 0 1rem;
+  width: min(calc(1110px + 1rem), 100%);
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.placeholder {
+  width: min(1110px, 100%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.placeholder-title {
+  color: #00001a;
+  margin-top: 20vh;
+}
+
+@media screen and (max-width: 1110px) {
+  .article-preview,
+  .article-description {
+    width: min(1110px, 100%);
+  }
+  .article-description-preview,
+  .article-description-title {
+    width: min(500px, 100%);
+  }
+  .aside {
+    width: min(1110px, 100%);
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .article-description-preview,
+  .article-description-title {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .menu {
+    display: none;
+  }
+  .vertical-menu {
+    display: flex;
+  }
+  .overlay,
+  .burger-menu-layer {
+    display: block;
+  }
+  .header {
+    padding: 28px 0 32px;
+  }
+  .burger-menu {
+    display: block;
+  }
+}
