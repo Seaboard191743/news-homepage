@@ -1,1 +1,1 @@
-## Deploy: https://news-homepage-react.netlify.app/
+### Deploy: https://news-homepage-react.netlify.app/
